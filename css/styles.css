@@ -125,7 +125,6 @@ h2{
     padding-bottom: 2rem;
     color: #4c4c4c;
     font-size: 1.9rem;
-    font-family: 'Roboto';
 }
 
 .containerC{
@@ -142,15 +141,13 @@ h2{
     flex-direction: column;
     align-items: left;
     justify-content: top;
-    box-shadow: 1px 1px 55px 5px rgb(0 0 0/6%);
-    font-family: 'Roboto';    
+    box-shadow: 1px 1px 55px 5px rgb(0 0 0/6%); 
     font-size: 1.25rem;
 }
 h3{
     color: #840000;
     margin: 10px 0;
     font-size: 1.8rem;
-    font-family: 'Roboto';
 }
 .boxS p{
     text-align: justify;
@@ -167,5 +164,4 @@ h3{
     padding-bottom: 0.5rem;
     color: #C4C4C4;
     font-size: 1.4rem;
-    font-family: 'Roboto';
 }
