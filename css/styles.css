@@ -165,3 +165,43 @@ h3{
     color: #C4C4C4;
     font-size: 1.4rem;
 }
+
+/*Aprendizajes Recientes*/
+
+.headerCalendario{
+    background: #a3d108;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.headerCalendario .dias ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.headerCalendario .dias ul li{
+    list-style: none;
+}
+
+.containerBuscar{
+    display: flex;
+    height: 80px;
+    padding: 5px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.containerBuscar input{
+    height: 30px;
+    width: 250px;
+}
+
+.containerBuscar img{
+    height: 35px;
+    width: auto;
+}
