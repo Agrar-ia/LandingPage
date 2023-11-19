@@ -1,0 +1,99 @@
+.camaraUpload{
+    width: 100%;
+    height: 100vh;
+    background: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camaraUpload .upload{
+    width: 70rem;
+    height: 40rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.camaraUpload .upload a{
+    margin-top: 1rem;
+    border: solid rgb(189, 189, 189) 1px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.camaraUpload .fileUpload{
+    background: rgb(167, 165, 165);
+    margin-top: 1rem;
+    height: 20rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.camaraUpload .fileUpload .text{
+    background: white;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/*camara captura */
+
+.camara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75rem;
+}
+
+.camara .captura{
+    background: black;
+    height: 60rem;
+    width: 80%;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+}
+
+.camara .controllers{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+}
+
+.camara .controllers .modos{
+    color: white;
+    padding: 1rem;
+}
+
+.camara .controllers .modos ul{
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+}
+
+.camara .controllers .modos ul li{
+    list-style: none;
+}
+
+.camara .controllers .disparador{
+    background: red;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 3px rgb(123, 255, 0) dashed;
+    margin-bottom: 1rem;
+}
