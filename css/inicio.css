@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px 100px 100px 100px;
+    display: flex;
+    background-color: #f1f1f1;
+}
+.iniciosesion{
+    margin: auto;
+    justify-items: center;
+    gap: 5em;
+}
+.sesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formulario{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 0.5em;
+    padding-bottom: 30px;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.f_input{
+    width: 600px;
+    outline: none;
+    padding: 15px;
+    border-radius: .6em;
+}
+.botones{
+    padding-bottom: 30px;
+}
+.boton{
+    background-color: #549605;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.sesion p{
+    color: #a3d108;
+}
